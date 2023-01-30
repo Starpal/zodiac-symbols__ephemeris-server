@@ -49,13 +49,13 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/include/node \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/src \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/openssl/config \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/openssl/openssl/include \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/uv/include \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/zlib \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/v8/include
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/include/node \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/src \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/openssl/config \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/openssl/openssl/include \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/uv/include \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/zlib \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/v8/include
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=binding' \
@@ -101,13 +101,13 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/include/node \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/src \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/openssl/config \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/openssl/openssl/include \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/uv/include \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/zlib \
-	-I/Users/vezzaro/Library/Caches/node-gyp/14.16.1/deps/v8/include
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/include/node \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/src \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/openssl/config \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/openssl/openssl/include \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/uv/include \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/zlib \
+	-I/Users/vezzaro/Library/Caches/node-gyp/14.20.1/deps/v8/include
 
 OBJS := \
 	$(obj).target/$(TARGET)/src/binding.o
