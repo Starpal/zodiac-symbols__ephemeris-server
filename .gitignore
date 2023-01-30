@@ -2,3 +2,5 @@ node_modules
 coverage
 .vcode
 .idea
+.vercel
+/src/vercel.json
