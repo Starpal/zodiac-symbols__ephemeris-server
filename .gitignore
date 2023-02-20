@@ -4,3 +4,4 @@ coverage
 .idea
 .vercel
 /src/vercel.json
+.DS_STORE
