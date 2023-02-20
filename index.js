@@ -66,7 +66,6 @@ const onListening = () => {
   const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr.port}`
   console.log(`Listening on ${bind}`)
 }
-
 /**
  * Listen on provided port, on all network interfaces.
  */
